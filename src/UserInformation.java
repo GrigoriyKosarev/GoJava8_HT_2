@@ -19,7 +19,7 @@ public class UserInformation {
 
         System.out.print("возраст: ");
         int age = in.nextInt();
-        
+
         System.out.println("----------------------------------");
         System.out.println("Вариант 1 (табличный):");
         System.out.println("Имя: "+ name);
@@ -27,6 +27,10 @@ public class UserInformation {
         System.out.println("Возраст: "+ age);
         System.out.println("Хобби: "+ hobbyUser);
 
-
+        System.out.println("----------------------------------");
+        System.out.println("Вариант 2 (текстовый):");
+        System.out.println("Человек по имени " + name + " живет в городе " + city + ".");
+        System.out.println("Этому человеку " + age + " лет и любит он заниматься " + hobbyUser + ".");
+        
     }
 }
