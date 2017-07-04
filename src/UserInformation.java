@@ -20,6 +20,12 @@ public class UserInformation {
         System.out.print("хобби: ");
         String hobby = in.nextLine();
 
+        System.out.println("----------------------------------");
+        System.out.println("Вариант 1 (табличный):");
+        System.out.println("Имя: "+ name);
+        System.out.println("Город: "+ city);
+        System.out.println("Возраст: "+ age);
+        System.out.println("Хобби: "+ hobby);
 
     }
 }
